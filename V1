@@ -1,4 +1,6 @@
-game.Players.LocalPlayer:Kick("Check Dev Console if an update happens")
+game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+game.Players.LocalPlayer:Kick()
+end)
 wait()
 while wait() do
 warn 'THEY ADDED A NEW DETECTION, PLEASE WAIT FOR AN UPDATE'
