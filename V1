@@ -1,5 +1,5 @@
 while wait() do
-warn "THEY ADDED A NEW DETECTION, PLEASE WAIT FOR AN UPDATE"
+warn 'THEY ADDED A NEW DETECTION, PLEASE WAIT FOR AN UPDATE'
 end
-
+wait(2)
 game.Players.LocalPlayer:Kick("Check Dev Console if an update happens")
